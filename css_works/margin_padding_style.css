@@ -1,0 +1,18 @@
+.main{
+border: 1px solid black;
+width: 700px;
+height: 100px;
+}
+
+.top{
+    margin-left: 522px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.bottom{
+    margin-top: 300px;
+    margin-left: 522px;
+    padding:60px
+}

@@ -1,0 +1,41 @@
+
+
+body{
+    background-color: black;
+}
+.main_head{
+    color: rebeccapurple;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+.sub{
+    color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+.main{
+   /* border-width: 1px;
+    border-style: solid;
+    border-color: saddlebrown;*/
+    border: 2px white solid;
+    width: 300px;
+    height: 300px;
+    background-color: salmon;
+    color: springgreen;
+    text-align: center;
+    float: left;
+   /*border-radius: 20%;*/
+}
+.galaxy_div{
+    background-color: slateblue;
+}
+.main h2{
+    color: snow;
+    text-align: center;
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+}

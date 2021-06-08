@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+body{
+    background-color: black;
+}
+.main_head{
+color: white;
+text-align: center;
+font-family: 'Noto Sans KR', sans-serif;
+}
+.row_div1{
+    width: 500px;
+    height: 150px;
+    background-color: black;
+    margin-left: 522px;
+   
+}
+.row_div2{
+    width: 700px;
+    height: 150px;
+    background-color: black;
+    margin-left: 427px;
+   margin-top: 50px;
+}
+.row_div3{
+    width: 900px;
+    height: 150px;
+    background-color: black;
+    margin-left: 330px;
+   margin-top: 50px;
+}
+
+.inner{
+height: 150px;
+width: 90px;
+float: left;
+}
+.col_div1{
+background-color: rgb(233, 38, 38);
+}
+.col_div2{
+background-color: rgb(124, 43, 57);
+margin-left: 5px;
+}
+.col_div3{
+    background-color: rgb(228, 134, 26);
+    margin-left: 5px;
+}
+.col_div4{
+    background-color: rgb(228, 62, 126);
+    margin-left: 5px;
+}
+.col_div5{
+    background-color: rgb(158, 12, 121);
+    margin-left: 5px;
+}
+
+
+.col_div6{
+    background-color: rgb(7, 99, 22);
+    }
+    .col_div7{
+    background-color: rgb(26, 245, 110);
+    margin-left: 5px;
+    }
+    .col_div8{
+        background-color: green;
+        margin-left: 5px;
+    }
+    .col_div9{
+        background-color: rgb(32, 223, 191);
+        margin-left: 5px;
+    }
+    .col_div10{
+        background-color: rgb(46, 83, 163);
+        margin-left: 5px;
+    }
+    .col_div11{
+        background-color: rgb(135, 39, 173);
+        margin-left: 5px;
+    }
+    .col_div12{
+        background-color: rgb(8, 72, 133);
+        margin-left: 5px;
+    }
+
+
+    .col_div13{
+        background-color: rgb(185, 204, 16);
+        }
+        .col_div14{
+        background-color: rgb(209, 212, 29);
+        margin-left: 5px;
+        }
+        .col_div15{
+            background-color: rgb(61, 235, 61);
+            margin-left: 5px;
+        }
+        .col_div16{
+            background-color: rgb(63, 63, 5);
+            margin-left: 5px;
+        }
+        .col_div17{
+            background-color: rgb(216, 108, 20);
+            margin-left: 5px;
+        }
+        .col_div18{
+            background-color: rgb(218, 88, 37);
+            margin-left: 5px;
+        }
+        .col_div19{
+            background-color: rgb(78, 32, 5);
+            margin-left: 5px;
+        }
+        .col_div20{
+            background-color: rgb(207, 14, 14);
+            margin-left: 5px;
+        }
+        .col_div21{
+            background-color: rgb(231, 13, 122);
+            margin-left: 5px;
+        }

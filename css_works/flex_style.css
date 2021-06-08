@@ -1,0 +1,40 @@
+.row{
+    width: 850px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: rgb(206, 186, 216);
+    display: flex;
+    justify-content: space-between;
+    /*justify-content:space-around;
+    align-items: center;*/
+}
+.col{
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+}
+.col-1{
+    background-color: chartreuse;
+    /*flex: 2;*/
+}
+.col-2{
+    background-color: coral;
+    /*flex: 3;*/
+}
+.col-3{
+    background-color: darkorchid;
+   /*flex: 1;*/
+}
+header{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(43, 151, 223);
+    border: 1px solid black;
+}
+header a{
+    padding: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}

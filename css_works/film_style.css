@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pattaya&display=swap');
+body{
+    background-color: black;
+}
+.main_head{
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Pattaya', sans-serif;
+position: relative;
+}
+.main_div{
+   border: 1px red solid;
+   width: 475px;
+   height: 400px;
+   background-color:royalblue;
+   color: white;
+   text-align: center;
+  /* float:left;*/
+  
+}
+.ter_div{
+position: absolute;
+top: 0;
+}
+.pie_div{
+    background-color: tomato;
+    position: absolute;
+    top:0;
+    left: 500px;
+}
+.muc_div{
+position: absolute;
+top: 0;
+left: 1000px;
+}
+.image{
+    width: 475px;
+    height: 150px;
+}
