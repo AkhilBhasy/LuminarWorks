@@ -1,4 +1,4 @@
-var a = 70, b = 90, c = 50;
+var a = 70, b = 90, c = 90;
 if ((a > b) && (a > c)) {
     if (b > c)
         console.log(a + " " + b + " " + c);
