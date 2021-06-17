@@ -27,3 +27,14 @@ for(let exp of expenses){
     max_exp=exp;
 }
 console.log(max_exp);
+
+
+
+console.log("Lowest Expense");
+var low_exp=expenses[0];
+for(let exp of expenses){
+   
+    if(exp<low_exp)
+    low_exp=exp;
+}
+console.log(low_exp);
