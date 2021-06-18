@@ -11,6 +11,8 @@
 // console.log(count);
 
 
+//or
+
 var arr=[1,2,3,4];
 var low=0,up=arr.length-1;
 var element=6,count=1;

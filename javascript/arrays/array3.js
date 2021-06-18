@@ -8,3 +8,15 @@ for(let i=2;i>=0;i--)
     } 
 }
 console.log(count);
+
+
+//or
+
+// var arr=[4,5,3];
+
+// var tot=0;
+// for(let num of arr){
+//     tot+=num;
+// }
+// for(let num of arr)
+// console.log(tot-num);
