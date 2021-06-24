@@ -1199,4 +1199,32 @@ var todos=[
       "title": "ipsam aperiam voluptates qui",
       "completed": false
     }
-  ]
+  ];
+
+
+//list all todos completed by userid 1
+console.log("all todos completed by userid 1");
+  for(let todo of todos){
+      if(todo.userId==1 &&todo.completed==true)
+      console.log(todo);
+  }
+
+
+  //no:of pending todos for userid 1
+  console.log("no:of pending todos for userid 1");
+  let cnt=0;
+  for(let todo of todos){
+    if(todo.userId==1 &&todo.completed==false)
+    cnt++;
+}
+console.log(cnt);
+
+
+ //no:of todos completed by userid 2
+ console.log("no:of todos completed by userid 2");
+ let no=0;
+ for(let todo of todos){
+   if(todo.userId==2 &&todo.completed==true)
+   no++;
+}
+console.log(no);
