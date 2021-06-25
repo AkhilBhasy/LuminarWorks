@@ -8,7 +8,7 @@
 //find() search for an element
 // find will return only one object while filter will return multiple objects
 //some():  return true or false
-
+//forEach: 
 
 
 
@@ -45,8 +45,8 @@ var min=arr.reduce((num1,num2)=>num1<num2?num1:num2);
 console.log(min);
 
 
-
-
+// print all elements
+arr.forEach(num=>console.log(num));
 
 
 
