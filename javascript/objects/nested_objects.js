@@ -45,7 +45,7 @@ var min_credit=accounts[1000].c_transactions.map(trans=>trans.amount).reduce((am
 console.log(min_credit);
 
 
-//credit trans date of acno 1001
+//credit trans dates of acno 1001
 accounts[1001].c_transactions.forEach(trans=>console.log(trans.date));
 
 
