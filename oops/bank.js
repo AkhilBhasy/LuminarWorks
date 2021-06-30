@@ -26,4 +26,4 @@ var obj1 = new Bank();
 obj1.createAccount(1001, "Shinu", 5000);
 obj1.balanceEnquiry();
 obj1.deposit(1000);
-obj1.withdrawal(25000);
+obj1.withdrawal(1000);
