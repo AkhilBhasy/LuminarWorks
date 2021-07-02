@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Document Object Model</h1>
+    <h2>DOM attributes</h2>
+    <ul>
+        <li class="one">URL</li>
+        <li class="one">head</li>
+        <li class="one">links</li>
+    </ul>
+
+    <h2>Document Object Model Methods</h2>
+<ul>
+    <li >document.getElementsByTagName()</li>
+    <li id="lst">document.getElementById()</li>
+    <li>document.getElementBYClassName()</li>
+    <li>document.getElementByName</li>
+    <li>document.querySelector()</li>
+    <li>document.querySelectorAll()</li>
+</ul>
+
+
+    <a href="#">one</a>
+    <a href="#">two</a>
+    <a href="#">three</a>
+</body>
+<script>
+    var lis=document.getElementsByTagName("li");
+    for(let tag of lis){
+        tag.style.color="blue";
+    }
+
+
+    var item=document.getElementById("lst");
+   item.style.color="green";
+
+   var lst=document.getElementsByClassName("one");
+   for(let tag of lst)
+   tag.style.color="red";
+
+
+
+   //querySelector
+   // used with ID only
+var l1=document.querySelector("li");
+l1.style.color="cyan";
+
+
+
+   //querySelectoAll
+   //can use instead of all(getElementsByTagName,getElementsByClassName,getElementsByName)
+   //in using Id it selects only 1st occurance
+   //. for class, # for ID
+
+var lits=document.querySelectorAll("li");
+for(let tag of lits)
+tag.style.color="violet";
+
+
+var htwo=document.querySelector("h2");
+//htwo.textContent="Document Object Method Model";
+htwo.innerHTML="<em>Document Object Method Model</em>";
+htwo.style.color="red";
+
+
+</script>
+</html>
